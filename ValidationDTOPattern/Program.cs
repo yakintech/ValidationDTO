@@ -14,6 +14,7 @@ namespace ValidationDTOPattern
             ord.Name = "sipariş örnek";
             ord.OrderID = 5;
 
+
             ValidationManager valmanager = new ValidationManager();
             bool validationsonuc = valmanager.IsValid<OrderDetails>(ord);
 
